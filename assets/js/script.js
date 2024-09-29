@@ -39,7 +39,7 @@ $(document).ready(function () {
 
         productArray.forEach(product => {
             const productHTML = `
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="product">
                         <div class="image">
                             <img src="${product.photo}" alt="${product.name}">

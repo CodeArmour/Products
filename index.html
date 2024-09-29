@@ -24,10 +24,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Filter</a>
+                    <a class="nav-link" href="#filter">Filter</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#view">Products</a>
                   </li>
                 </ul>
               </div>
@@ -37,19 +37,23 @@
 
 
     <!-- filter section start -->
-    <section class="filter py-5">
+    <section class="filter py-5" id="filter">
         <div class="container text-center">
             <h2>Filter Your Products</h2>
             <p>Make your search easy by filtering products by categories</p>
     
-            <div class="d-flex justify-content-center mb-3 text-center">
-                <select id="categoryDropdownfilter" class="form-select w-50">
+            <div class="d-flex w-50 mb-3">
+                <select id="categoryDropdownfilter" class="form-select w-100">
                     <option value="">Select category</option>
                     <option value="All">All</option>
                     <option value="Men">Men</option>
                     <option value="Women">Women</option>
                     <option value="Kids">Kids</option>
                 </select>
+            </div>
+
+            <div class="container-img">
+                <img src="assets/images/filter.jpg" alt="">
             </div>
             
     
@@ -67,7 +71,7 @@
     <!-- filter section end -->
 
     <!-- view section start -->
-    <section class="view py-5">
+    <section class="view py-5" id="view">
         <div class="product-container text-center">
             <h2>Our products</h2>
             <div class="mb-5">
@@ -122,9 +126,6 @@
                 <button type="button" class="btn btn-success">Add Category</button>
             </div>
         </div>
-
-
-
 
             <div class="row">
                 
